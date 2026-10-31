@@ -1,0 +1,39 @@
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Playwright persistent browser session
+instahyre_browser_profile/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE settings
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Temporary automation screenshots
+instahyre_error.png
+instahyre_experience_filter.png
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
