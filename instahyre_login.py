@@ -22,7 +22,8 @@ LOGIN_URL = "https://www.instahyre.com/login/"
 
 OPPORTUNITIES_URL = (
     "https://www.instahyre.com/candidate/opportunities/"
-    "?experience=4&matching=true"
+    "?company_size=0&job_type=0&search=true"
+    "&skills=Java,Spring+Boot&years=4"
 )
 
 PROFILE_DIR = BASE_DIR / "instahyre_browser_profile"
